@@ -4,7 +4,7 @@ import * as z from "zod"
 
 const CreateQuestion = z
   .object({
-    name: z.string(),
+    text: z.string(),
   })
   .nonstrict()
 
